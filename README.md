@@ -32,40 +32,29 @@ Erweiterung der Analyse und Modellierung auf stündliche Daten, um noch detailli
 
 ## Projektstruktur
 
-BikeSharingAnalytics
-│
-├── README.md 
-│
-├── .gitignore 
-│
-├── environment.yml
-│
-├── data
-│   ├── raw_data
-│   │   ├── hour.csv
-│   │   └── day.csv
-│   └── processed_data
-│   
-├── notebooks
-│   ├── data_exploration.ipynb
-│   ├── data_preprocessing.ipynb
-│   ├── model_development.ipynb
-│   └── model_evaluation.ipynb
-│
-├── scripts
-│   ├── data_preparation.py
-│   ├── model.py
-│   └── utils.py
-│
-├── reports
-│   ├── usage_report.pdf
-│   ├── weather_impact_report.pdf
-│   └── peak_times_report.pdf
-│
-├── output
-│   ├── predictions
-│   └── performance_metrics
-│
-└── future_expansions
-
-
+- BikeSharingAnalytics 
+  - README.md 
+  - .gitignore 
+  - environment.yml
+  - data
+    - raw_data
+      - hour.csv
+      - day.csv
+    - processed_data
+  - notebooks
+    - data_exploration.ipynb
+    - data_preprocessing.ipynb
+    - model_development.ipynb
+    - model_evaluation.ipynb
+  - scripts
+    - data_preparation.py
+    - model.py
+    - utils.py
+  - reports
+    - usage_report.pdf
+    - weather_impact_report.pdf
+    - peak_times_report.pdf
+  - output
+    - predictions
+    - performance_metrics
+  - future_expansions
