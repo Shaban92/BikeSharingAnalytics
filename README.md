@@ -27,9 +27,6 @@ Erstellung detaillierter Berichte zur täglichen Nutzung des Bike-Sharing-Dienst
 
 - **Präsentation der Ergebnisse**: Präsentieren Sie Ihre Ergebnisse in einer Weise, die das Verständnis und die Entscheidungsfindung des Unternehmens erleichtert.
 
-## Zukünftige Pläne
-Erweiterung der Analyse und Modellierung auf stündliche Daten, um noch detailliertere Einblicke und Prognosen zu ermöglichen.
-
 ## Datenquelle
 
 Die Daten für dieses Projekt stammen aus der [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php), die sowohl stündliche als auch tägliche Fahrradverleihdaten aus Washington D.C., USA enthält.
@@ -60,7 +57,11 @@ Nachdem Sie die Umgebung aktiviert und die notwendigen Pakete installiert haben,
 ```bash
 jupyter notebook
 ```
+Navigieren Sie zum Verzeichnis notebooks und öffnen Sie die Notebooks, um die Analyse und Modellentwicklung zu starten.
 
+## Ergebnisse und Berichte
+
+Alle Ergebnisse der Analyse sowie die entwickelten Modelle werden in den entsprechenden Jupyter-Notebooks präsentiert. Zusätzlich finden Sie detaillierte Berichte zu Aspekten wie Fahrradnutzung, Wettereinfluss und Stoßzeiten im reports-Verzeichnis.
 
 ## Projektstruktur
 
@@ -90,6 +91,27 @@ jupyter notebook
     - 📂 predictions: // Die Vorhersagen der verschiedenen Modelle
     - 📂 performance_metrics: // Enthält die Leistungsmetriken der Modelle
   - 📁 future_expansions: // Materialien und Pläne für zukünftige Erweiterungen, wie die Einbeziehung stündlicher Daten
+
+## Forschungsfragen
+
+Im Verlauf dieser Analyse möchten wir die folgenden Forschungsfragen beantworten:
+
+Wie beeinflusst das Wetter die Nutzung von Fahrradverleihdiensten?
+Welche sind die Hauptstoßzeiten für den Fahrradverleih?
+Wie variieren die Nutzungsmuster von Fahrradverleihdiensten im Tages-, Wochen- und Jahresverlauf?
+Wie unterscheidet sich das Verhalten von registrierten und gelegentlichen Nutzern?
+Wie genau können wir zukünftige Nutzungsmuster basierend auf historischen Daten vorhersagen?
+
+## Verwendete Bibliotheken
+
+Dieses Projekt nutzt eine Reihe von Python-Bibliotheken, darunter:
+
+- pandas: Datenmanipulation und -analyse
+- numpy: Unterstützung für große, mehrdimensionale Arrays und Matrizen
+- matplotlib und seaborn: Datenvisualisierung
+- scikit-learn: Werkzeuge für maschinelles Lernen und Modellentwicklung
+- Jupyter: Erstellen und Teilen von Notebooks
+
 
 ## Zukünftige Pläne
 
