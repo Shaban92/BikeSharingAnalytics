@@ -32,17 +32,40 @@ Erweiterung der Analyse und Modellierung auf stündliche Daten, um noch detailli
 
 ## Projektstruktur
 
-BikeSharingAnalytics/ (Hauptordner für Ihr Projekt)
+BikeSharingAnalytics
 │
-├──📜 README.md (Markdown, die Hauptdokumentation und das Einführungsmaterial für Ihr Projekt)
+├── README.md 
 │
-├──📝 .gitignore (Datei, um bestimmte Dateien von der Versionskontrolle auszuschließen)
+├── .gitignore 
 │
-├──📋 environment.yml (conda-Umgebungsdatei)
+├── environment.yml
 │
-├──📁 data/ (alle Daten, die für das Projekt verwendet werden)
-│   ├──📂 raw_data/ (die Rohdaten, die direkt aus der UCI Machine Learning Repository stammen)
-│   │   ├──📄 hour.csv (stündliche Daten - für zukünftige Arbeit)
-│   │   └──📄 day.csv (tägliche Daten - akt## BikeSharingAnalytics
+├── data
+│   ├── raw_data
+│   │   ├── hour.csv
+│   │   └── day.csv
+│   └── processed_data
+│   
+├── notebooks
+│   ├── data_exploration.ipynb
+│   ├── data_preprocessing.ipynb
+│   ├── model_development.ipynb
+│   └── model_evaluation.ipynb
+│
+├── scripts
+│   ├── data_preparation.py
+│   ├── model.py
+│   └── utils.py
+│
+├── reports
+│   ├── usage_report.pdf
+│   ├── weather_impact_report.pdf
+│   └── peak_times_report.pdf
+│
+├── output
+│   ├── predictions
+│   └── performance_metrics
+│
+└── future_expansions
 
 
