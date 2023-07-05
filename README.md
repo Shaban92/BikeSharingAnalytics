@@ -32,29 +32,29 @@ Erweiterung der Analyse und Modellierung auf stündliche Daten, um noch detailli
 
 ## Projektstruktur
 
-- BikeSharingAnalytics 
-  - README.md 
-  - .gitignore 
-  - environment.yml
-  - data
-    - raw_data
-      - hour.csv
-      - day.csv
-    - processed_data
-  - notebooks
-    - data_exploration.ipynb
-    - data_preprocessing.ipynb
-    - model_development.ipynb
-    - model_evaluation.ipynb
-  - scripts
-    - data_preparation.py
-    - model.py
-    - utils.py
-  - reports
-    - usage_report.pdf
-    - weather_impact_report.pdf
-    - peak_times_report.pdf
-  - output
-    - predictions
-    - performance_metrics
-  - future_expansions
+- 📁 BikeSharingAnalytics
+  - 📜 README.md: Hauptdokumentation und Einführungsmaterial für das Projekt
+  - 📝 .gitignore: Datei, um bestimmte Dateien von der Versionskontrolle auszuschließen
+  - 📋 environment.yml: conda-Umgebungsdatei
+  - 📁 data: Alle Daten, die für das Projekt verwendet werden
+    - 📁 raw_data: Die Rohdaten, die direkt aus der UCI Machine Learning Repository stammen
+      - 📄 hour.csv: Stündliche Daten - für zukünftige Arbeit
+      - 📄 day.csv: Tägliche Daten - aktueller Fokus
+    - 📁 processed_data: Die aufbereiteten Daten, die für die Analyse und Modellierung bereit sind
+  - 📓 notebooks: Jupyter-Notebooks für explorative Datenanalyse, Modellentwicklung und andere Aufgaben
+    - 📖 data_exploration.ipynb: Explorative Datenanalyse
+    - 📖 data_preprocessing.ipynb: Datenbereinigung und -vorbereitung
+    - 📖 model_development.ipynb: Entwicklung der Vorhersagemodelle
+    - 📖 model_evaluation.ipynb: Evaluierung der Modellleistung und Berichterstellung
+  - 📁 scripts: Alle Skripte, die für das Projekt verwendet werden
+    - 📜 data_preparation.py: Skript zur Datenvorbereitung und -reinigung
+    - 📜 model.py: Skript zur Erstellung der Vorhersagemodelle
+    - 📜 utils.py: Hilfsfunktionen und -skripte, die in verschiedenen Teilen des Projekts verwendet werden
+  - 📁 reports: Ordner für die erstellten Berichte zur Fahrradnutzung
+    - 📜 usage_report.pdf: Bericht zur allgemeinen Nutzung
+    - 📜 weather_impact_report.pdf: Bericht zum Einfluss des Wetters auf die Nutzung
+    - 📜 peak_times_report.pdf: Bericht zu Stoßzeiten
+  - 📁 output: Die Ergebnisse der Modellvorhersagen und Leistungsmetriken
+    - 📂 predictions: Die Vorhersagen der verschiedenen Modelle
+    - 📂 performance_metrics: Enthält die Leistungsmetriken der Modelle
+  - 📁 future_expansions: Materialien und Pläne für zukünftige Erweiterungen, wie die Einbeziehung stündlicher Daten
