@@ -96,11 +96,11 @@ Alle Ergebnisse der Analyse sowie die entwickelten Modelle werden in den entspre
 
 Im Verlauf dieser Analyse möchten wir die folgenden Forschungsfragen beantworten:
 
-Wie beeinflusst das Wetter die Nutzung von Fahrradverleihdiensten?
-Welche sind die Hauptstoßzeiten für den Fahrradverleih?
-Wie variieren die Nutzungsmuster von Fahrradverleihdiensten im Tages-, Wochen- und Jahresverlauf?
-Wie unterscheidet sich das Verhalten von registrierten und gelegentlichen Nutzern?
-Wie genau können wir zukünftige Nutzungsmuster basierend auf historischen Daten vorhersagen?
+- Wie beeinflusst das Wetter die Nutzung von Fahrradverleihdiensten?
+- Welche sind die Hauptstoßzeiten für den Fahrradverleih?
+- Wie variieren die Nutzungsmuster von Fahrradverleihdiensten im Tages-, Wochen- und Jahresverlauf?
+- Wie unterscheidet sich das Verhalten von registrierten und gelegentlichen Nutzern?
+- Wie genau können wir zukünftige Nutzungsmuster basierend auf historischen Daten vorhersagen?
 
 ## Verwendete Bibliotheken
 
