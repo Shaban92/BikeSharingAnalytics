@@ -126,3 +126,7 @@ Das Fahrradverleih-Geschäft wächst rasant und stellt ständig neue Herausforde
 4. **Untersuchung der Auswirkungen von Ereignissen:** Große Veranstaltungen, Straßenarbeiten oder andere besondere Umstände können einen erheblichen Einfluss auf die Fahrradnutzung haben. Eine zukünftige Erweiterung könnte versuchen, solche Ereignisse in das Modell zu integrieren, um seine Vorhersagekraft weiter zu verbessern.
 
 5. **Integration von E-Bike-spezifischen Daten:** E-Bikes stellen einzigartige Herausforderungen und Möglichkeiten im Vergleich zu herkömmlichen Fahrrädern dar, wie z.B. die Notwendigkeit des Ladens und erhöhte Reichweiten. Eine Analyse, die E-Bike-spezifische Daten berücksichtigt, könnte dabei helfen, spezifische Strategien für diesen wachsenden Sektor zu entwickeln.
+
+6. **Nutzerfeedback und -bewertungen berücksichtigen:** Neben den quantitativen Daten wie Wetter und Tageszeit könnten qualitative Daten wie Nutzerbewertungen und -feedback wertvolle Informationen für die Verbesserung des Dienstes und die Vorhersage der Nutzung bieten.
+
+7. **Künstliche Intelligenz und Deep Learning einsetzen:** Zuletzt könnten wir fortgeschrittene künstliche Intelligenz und Deep Learning-Methoden nutzen, um unsere Vorhersagen zu verbessern und neue Einblicke in die Nutzungsmuster zu gewinnen.
