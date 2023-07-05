@@ -33,10 +33,10 @@ Erweiterung der Analyse und Modellierung auf stündliche Daten, um noch detailli
 ## Projektstruktur
 
 - 📁 BikeSharingAnalytics
-  - 📜 README.md: Hauptdokumentation und Einführungsmaterial für das Projekt
-  - 📝 .gitignore: Datei, um bestimmte Dateien von der Versionskontrolle auszuschließen
-  - 📋 environment.yml: conda-Umgebungsdatei
-  - 📁 data: Alle Daten, die für das Projekt verwendet werden
+  - 📜 README.md: "Hauptdokumentation und Einführungsmaterial für das Projekt"
+  - 📝 .gitignore: # Datei, um bestimmte Dateien von der Versionskontrolle auszuschließen
+  - 📋 environment.yml:  // conda-Umgebungsdatei
+  - 📁 data: \\ Alle Daten, die für das Projekt verwendet werden
     - 📁 raw_data: Die Rohdaten, die direkt aus der UCI Machine Learning Repository stammen
       - 📄 hour.csv: Stündliche Daten - für zukünftige Arbeit
       - 📄 day.csv: Tägliche Daten - aktueller Fokus
