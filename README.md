@@ -30,6 +30,38 @@ Erstellung detaillierter Berichte zur täglichen Nutzung des Bike-Sharing-Dienst
 ## Zukünftige Pläne
 Erweiterung der Analyse und Modellierung auf stündliche Daten, um noch detailliertere Einblicke und Prognosen zu ermöglichen.
 
+## Datenquelle
+
+Die Daten für dieses Projekt stammen aus der [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php), die sowohl stündliche als auch tägliche Fahrradverleihdaten aus Washington D.C., USA enthält.
+
+## Installationsanleitung
+
+1. Stellen Sie sicher, dass Python und pip auf Ihrem System installiert sind. 
+2. Klonen Sie dieses Repository auf Ihre Maschine und navigieren Sie in das Projektverzeichnis:
+    ```bash
+    git clone https://github.com/your-username/BikeSharingAnalytics.git
+    cd BikeSharingAnalytics
+    ```
+3. Erstellen Sie eine neue Python-Virtualenv-Umgebung und aktivieren Sie sie:
+    ```bash
+    python3 -m venv env
+    source env/bin/activate  # Für Linux und Mac
+    .\env\Scripts\activate  # Für Windows
+    ```
+4. Installieren Sie die erforderlichen Pakete mit pip:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Anleitung zur Ausführung des Projekts
+
+Nachdem Sie die Umgebung aktiviert und die notwendigen Pakete installiert haben, können Sie die Jupyter Notebooks starten:
+
+```bash
+jupyter notebook
+```
+
+
 ## Projektstruktur
 
 - 📁 BikeSharingAnalytics
@@ -58,3 +90,17 @@ Erweiterung der Analyse und Modellierung auf stündliche Daten, um noch detailli
     - 📂 predictions: // Die Vorhersagen der verschiedenen Modelle
     - 📂 performance_metrics: // Enthält die Leistungsmetriken der Modelle
   - 📁 future_expansions: // Materialien und Pläne für zukünftige Erweiterungen, wie die Einbeziehung stündlicher Daten
+
+## Zukünftige Pläne
+
+Das Fahrradverleih-Geschäft wächst rasant und stellt ständig neue Herausforderungen und Möglichkeiten. Mit Blick auf die Zukunft, könnten folgende Erweiterungen und Verbesserungen unser Projekt noch wertvoller für Unternehmen in der Branche machen:
+
+1. **Einbeziehung stündlicher Daten:** Die bisherige Analyse konzentriert sich auf tägliche Muster. Durch die Einbeziehung stündlicher Daten könnten wir detailliertere Erkenntnisse über die Fahrradnutzung im Tagesverlauf gewinnen. Diese Informationen könnten Unternehmen dabei helfen, ihre Flotten effizienter zu verwalten und sicherzustellen, dass genügend Fahrräder während Stoßzeiten zur Verfügung stehen.
+
+2. **Erweiterung auf andere Städte oder Regionen:** Derzeit basiert unser Modell auf Daten aus Washington D.C. Eine Erweiterung auf andere Städte oder Regionen würde es uns ermöglichen, lokalspezifische Nutzungsmuster zu analysieren und zu vergleichen, was für Unternehmen von Interesse sein könnte, die in mehreren Märkten tätig sind oder expandieren möchten.
+
+3. **Integration von Echtzeit-Wetterdaten:** Unser aktuelles Modell berücksichtigt Wetterdaten, aber eine Integration von Echtzeit-Wetterdaten könnte die Vorhersagegenauigkeit verbessern. Dies könnte besonders nützlich sein, um kurzfristige Schwankungen in der Fahrradnutzung zu verstehen und darauf zu reagieren.
+
+4. **Untersuchung der Auswirkungen von Ereignissen:** Große Veranstaltungen, Straßenarbeiten oder andere besondere Umstände können einen erheblichen Einfluss auf die Fahrradnutzung haben. Eine zukünftige Erweiterung könnte versuchen, solche Ereignisse in das Modell zu integrieren, um seine Vorhersagekraft weiter zu verbessern.
+
+5. **Integration von E-Bike-spezifischen Daten:** E-Bikes stellen einzigartige Herausforderungen und Möglichkeiten im Vergleich zu herkömmlichen Fahrrädern dar, wie z.B. die Notwendigkeit des Ladens und erhöhte Reichweiten. Eine Analyse, die E-Bike-spezifische Daten berücksichtigt, könnte dabei helfen, spezifische Strategien für diesen wachsenden Sektor zu entwickeln.
